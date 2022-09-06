@@ -93,7 +93,7 @@ background-color: #011f3bfb;
 .title-js,.title-html,.title-css{
     color: #92a014e8;
     font-weight: 700;
-    font-size: 18pt;
+    font-size: 15pt;
 }
 
 .title-html{
@@ -104,12 +104,13 @@ background-color: #011f3bfb;
 }
 
 .secondText{
-    color: #0284acc4;
+    color: #025aac;
     text-align: justify;
     letter-spacing:0.2px;
 }
 .bottomText{
     color: #03054d;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 10px;
     letter-spacing:2px;
