@@ -31,17 +31,21 @@ background-color: #011f3bfb;
     box-shadow: 0px 10px 35px #a5a207d8;
     width: 100%;
     max-width: 500px;
+    animation: floatCard 8s infinite ;
 }
 .card-html{
     box-shadow: 0px 10px 35px #e7900dd8;
+    animation: floatCard 6s infinite ;
 }
 .card-css{
     box-shadow: 0px 10px 35px #e04fe0d8;
+    animation: floatCard 4s infinite ;
 }
 .mediaCard-js,.mediaCard-html,.mediaCard-css{
     background: url("./img/javascript01.svg") center/cover;
     width: 100%;
     height: 300px;
+    
     
 }
 .mediaCard-html{
@@ -118,4 +122,19 @@ background-color: #011f3bfb;
 
 .actions a{
     color: #ffffff;
+}
+
+@keyframes floatCard {
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(20px);
+    }
+    40%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
