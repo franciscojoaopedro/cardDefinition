@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 box-sizing: border-box;
+text-decoration: none;
 }
 body{
     font-family: "Roboto",sans-serif;
@@ -11,6 +12,7 @@ body{
 box-sizing: border-box;
 outline: none;
 text-decoration: none;
+background-color: #011f3bfb;
 }
 
 .content{
@@ -23,11 +25,12 @@ text-decoration: none;
 }
 
 .card-js,.card-html,.card-css{
+    margin: 20px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 10px 35px #a5a207d8;
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 .card-html{
     box-shadow: 0px 10px 35px #e7900dd8;
@@ -36,9 +39,9 @@ text-decoration: none;
     box-shadow: 0px 10px 35px #e04fe0d8;
 }
 .mediaCard-js,.mediaCard-html,.mediaCard-css{
-    background: url("./img/javascript.svg") center/cover;
+    background: url("./img/javascript01.svg") center/cover;
     width: 100%;
-    height: 350px;
+    height: 300px;
     
 }
 .mediaCard-html{
@@ -48,8 +51,15 @@ text-decoration: none;
     background: url("./img/css.svg") center/cover;
 }
 .topCard{
+    margin-top: 20px;
     padding: 20px;
     padding-top: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title-js,.title-css,.title-html{
+
+    margin-bottom: 10px;
 }
 
 .bottomCard{
@@ -81,9 +91,9 @@ text-decoration: none;
     background: #03054d;
 }
 .title-js,.title-html,.title-css{
-    color: #ebe98d;
+    color: #92a014e8;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 18pt;
 }
 
 .title-html{
@@ -94,13 +104,17 @@ text-decoration: none;
 }
 
 .secondText{
-    color: #03054d;
+    color: #0284acc4;
     text-align: justify;
     letter-spacing:0.2px;
 }
 .bottomText{
     color: #03054d;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 10px;
     letter-spacing:2px;
+}
+
+.actions a{
+    color: #ffffff;
 }
